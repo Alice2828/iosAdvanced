@@ -13,6 +13,9 @@
 		F0CF4F5F2718680900E89A73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CF4F5E2718680900E89A73 /* Preview Assets.xcassets */; };
 		F0CF4F6A2718680900E89A73 /* Assignment3BigImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF4F692718680900E89A73 /* Assignment3BigImagesTests.swift */; };
 		F0CF4F752718680900E89A73 /* Assignment3BigImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF4F742718680900E89A73 /* Assignment3BigImagesUITests.swift */; };
+		F0CF4F832718708E00E89A73 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF4F822718708E00E89A73 /* Models.swift */; };
+		F0CF4F85271871AB00E89A73 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF4F84271871AB00E89A73 /* DetailsView.swift */; };
+		F0CF4F8727187FDF00E89A73 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF4F8627187FDF00E89A73 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		F0CF4F702718680900E89A73 /* Assignment3BigImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment3BigImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CF4F742718680900E89A73 /* Assignment3BigImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3BigImagesUITests.swift; sourceTree = "<group>"; };
 		F0CF4F762718680900E89A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CF4F822718708E00E89A73 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F0CF4F84271871AB00E89A73 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		F0CF4F8627187FDF00E89A73 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				F0CF4F5B2718680900E89A73 /* Assets.xcassets */,
 				F0CF4F602718680900E89A73 /* Info.plist */,
 				F0CF4F5D2718680900E89A73 /* Preview Content */,
+				F0CF4F822718708E00E89A73 /* Models.swift */,
+				F0CF4F84271871AB00E89A73 /* DetailsView.swift */,
+				F0CF4F8627187FDF00E89A73 /* ImageLoader.swift */,
 			);
 			path = Assignment3BigImages;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CF4F832718708E00E89A73 /* Models.swift in Sources */,
+				F0CF4F85271871AB00E89A73 /* DetailsView.swift in Sources */,
+				F0CF4F8727187FDF00E89A73 /* ImageLoader.swift in Sources */,
 				F0CF4F5A2718680800E89A73 /* ContentView.swift in Sources */,
 				F0CF4F582718680800E89A73 /* Assignment3BigImagesApp.swift in Sources */,
 			);
